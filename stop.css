@@ -1,0 +1,90 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 3%, 90%);
+}
+
+#head
+{
+    font-size: 4rem;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+    margin-bottom: 2rem;
+}
+
+.clock
+{
+    font-size: 3rem;
+    font-weight:600;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+    color: hsl(0, 1%, 29%);
+}
+
+.border
+{
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 1.5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.border button
+{
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+    padding: 0.4rem 1rem;
+    font-size: 1.2rem ;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+}
+
+#startbtn
+{
+    background-color: rgb(35, 197, 35);
+    cursor: pointer;
+}
+#startbtn:hover
+{
+    background-color: rgb(26, 111, 40);
+}
+
+#stopbtn
+{
+    background-color: rgb(193, 107, 99);
+    cursor: pointer;
+}
+#stopbtn:hover
+{
+    background-color: rgb(127, 56, 25);
+}
+
+#resetbtn
+{
+    background-color: rgb(35, 154, 197);
+    cursor: pointer;
+}
+#resetbtn:hover
+{
+    background-color: rgb(26, 60, 128);
+}
+
